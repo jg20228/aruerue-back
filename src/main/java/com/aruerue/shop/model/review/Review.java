@@ -19,6 +19,10 @@ private int userId;
 private Timestamp createDate;
 private int star;
 private String img;
+<<<<<<< HEAD
 private boolean existenceOfImg; //이건 필요없을 듯...
+=======
+private boolean existenceOfImg;
+>>>>>>> c3ce0af68d3d29589e62f7f56fded8857d096b13
 private int orderId;
 }

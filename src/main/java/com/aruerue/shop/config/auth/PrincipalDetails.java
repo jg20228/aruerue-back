@@ -64,11 +64,19 @@ public class PrincipalDetails implements UserDetails{
       	System.out.println("auth.PrincipalDetails의 getAuthorities에 왔습니다");
 
 		Collection<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
+<<<<<<< HEAD
 //        user.getRoleList().forEach(r -> {
 //          	System.out.println("auth.PrincipalDetails의 getAuthorities의 authorities= "+authorities);
 //
 //        	authorities.add(()->{ return r;});
 //        });
+=======
+        user.getRoleList().forEach(r -> {
+          	System.out.println("auth.PrincipalDetails의 getAuthorities의 authorities= "+authorities);
+
+        	authorities.add(()->{ return r;});
+        });
+>>>>>>> c3ce0af68d3d29589e62f7f56fded8857d096b13
      	System.out.println("auth.PrincipalDetails의 getAuthorities의 authorities의 완결판= "+authorities);
         return authorities;
     }

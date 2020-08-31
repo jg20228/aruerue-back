@@ -20,6 +20,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
 	@Autowired
 	private UserRepository userRepository;
+<<<<<<< HEAD
+=======
+	
+	
+>>>>>>> c3ce0af68d3d29589e62f7f56fded8857d096b13
 
 	@Autowired
 	private CorsConfig corsConfig;

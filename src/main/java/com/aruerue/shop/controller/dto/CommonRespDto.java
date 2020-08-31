@@ -1,5 +1,6 @@
 package com.aruerue.shop.controller.dto;
 
+<<<<<<< HEAD
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,3 +17,8 @@ public class CommonRespDto<T> {
 
 }
 
+=======
+public class CommonRespDto {
+
+}
+>>>>>>> c3ce0af68d3d29589e62f7f56fded8857d096b13

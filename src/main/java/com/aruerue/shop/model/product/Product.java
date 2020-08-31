@@ -20,8 +20,24 @@ private int discounted;
 private String content;
 private int categoryId;
 private String bgImg;
+<<<<<<< HEAD
+=======
+private String changebgImg;
+>>>>>>> c3ce0af68d3d29589e62f7f56fded8857d096b13
 private boolean sale;
 private boolean newly;
 private boolean best;
 
+<<<<<<< HEAD
+=======
+
+/////////////////////////boolean 교체문
+
+
+private String sale2;
+private String newly2;
+private String best2;
+private String categoryId2;
+
+>>>>>>> c3ce0af68d3d29589e62f7f56fded8857d096b13
 }

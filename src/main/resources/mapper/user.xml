@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> c3ce0af68d3d29589e62f7f56fded8857d096b13
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
@@ -46,9 +49,18 @@
 	</select>
 
 
+<<<<<<< HEAD
 	<update id="updateUser"
 		parameterType="com.aruerue.shop.model.user.User">
 		UPDATE user SET password = #{password} where id=#{id}
+=======
+	<update id="updateUser">
+		UPDATE user SET username =#{username} , email =#{email}
+		, name=#{name}, gender =#{gender}, phone = #{phone}
+		, address= #{address} , detail_address =#{detail_address}
+		,total_amount =#{total_amount},role=#{role},profile=#{profile}
+		where id=#{id}
+>>>>>>> c3ce0af68d3d29589e62f7f56fded8857d096b13
 	</update>
 
 	<delete id="deleteUser" parameterType="int">
@@ -62,4 +74,12 @@
 		SELECT * FROM user
 		ORDER BY id
 	</select>
+<<<<<<< HEAD
 </mapper>
+=======
+
+
+
+
+</mapper>
+>>>>>>> c3ce0af68d3d29589e62f7f56fded8857d096b13
